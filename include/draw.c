@@ -23,7 +23,7 @@ int draw_bin(void *topaddr, int bufferwidth, int pixelformat, icon_t *icon)
 
     vram16 = (u16 *)vram32;
 
-    if (pixelformat != 3)
+    if (pixelformat != PSP_DISPLAY_PIXEL_FORMAT_8888)
         in16bit = 1;
 
     msx = icon->msx;

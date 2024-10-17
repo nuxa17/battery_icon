@@ -1,0 +1,8 @@
+1.0: Initial release
+
+------
+1.1: Configuration options
+
+- Added options for resizing the icon (not the best scaling).
+- Added options for changing the position of the icon.
+- Various fixes.
