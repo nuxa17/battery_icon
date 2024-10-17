@@ -6,7 +6,7 @@ This plugin will show a blinking low battery indicator. It works by hooking the 
 instead of simply modifying the content of the buffer (flickering may show up). It was an exercise for learning how to use PSPSDK,
 as well as a way to practice C. For that matter, I have used code for other projects as a way to understand what I was doing.
 
-Some options can be changed on the .ini file, which must be on the same folder with the plugin. If the file cannot be found, it will be generated automatically.
+Some options can be changed on the .ini file, which must be on the same folder with the plugin. If the file cannot be found, it will be generated automatically. The image resizing is a bit odd, it will be changed in the future (probably).
 
 PSPSDK needs to be installed for building, run `make` and you are ready to go!
 
